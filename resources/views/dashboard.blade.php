@@ -11,8 +11,7 @@
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!!!") }}
                     <br />
-                    <br />
-                    <x-button primary>Hi there</x-button>
+                    <livewire:dashboardstats />
                 </div>
             </div>
         </div>
